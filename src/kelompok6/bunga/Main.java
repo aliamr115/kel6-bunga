@@ -19,9 +19,12 @@ public class Main {
        at.setharga("Rp. 20.000");
                
        System.out.println("Nama : "+at.getnama());
-       System.out.println("Warna : "+at.getnama());
-       System.out.println("Jenis : "+at.getnama());
-       System.out.println("Harga : "+at.getnama());
+       System.out.println("Warna : "+at.getwarna());
+       System.out.println("Jenis : "+at.getjenis());
+       System.out.println("Harga : "+at.getharga());
+       
+       
+       
     
     }
 }

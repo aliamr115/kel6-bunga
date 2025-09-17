@@ -16,27 +16,27 @@ public class aliaTulip {
         this.nama = nama;
     }
     public String getnama(){ //method getter
-        return this.getnama();
+        return this.nama;
     }
     
     public void setwarna(String warna){ //method setter
         this.warna = warna;
     }
     public String getwarna(){ //method getter
-        return this.getwarna();
+        return this.warna;
     }
     
     public void setjenis(String jenis){ //method setter
         this.jenis = jenis;
     }
     public String getjenis(){ //method getter
-        return this.getjenis();
+        return this.jenis;
     }
     
     public void setharga(String harga){ //method setter
-        this.nama = nama;
+        this.harga = harga;
     }
     public String getharga(){ //method getter
-        return this.getharga();
+        return this.harga;
     }
 }
