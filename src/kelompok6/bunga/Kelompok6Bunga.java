@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package kelompok6.bunga;
 
-/**
- *
- * @author user
- */
 public class Kelompok6Bunga {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
+        zakkyTuri pp = new zakkyTuri();
+        
+        pp.setNama("Kembang Turi");
+        pp.setWarna("Putih, Pink, Merah");
+        pp.setJenis("Sesbania grandiflora");
+        pp.setHarga("Rp.8000 per kg");
+        
+        System.out.println("Nama : "+pp.getNama());
+        System.out.println("Jenis : "+pp.getJenis());
+        System.out.println("Warna : "+pp.getWarna());
+        System.out.println("Harga : "+pp.getHarga());
     }
     
 }
