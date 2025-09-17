@@ -12,31 +12,32 @@ public class aliaTulip {
     
     String nama, warna, jenis, harga;
     
+    //method setter
     public void setnama(String nama){ //method setter
         this.nama = nama;
     }
-    public String getnama(){ //method getter
-        return this.nama;
-    }
-    
     public void setwarna(String warna){ //method setter
         this.warna = warna;
+    }
+    public void setjenis(String jenis){ //method setter
+        this.jenis = jenis;
+    }
+    public void setharga(String harga){ //method setter
+        this.harga = harga;
+    }
+    
+    //method getter
+    public String getnama(){ //method getter
+        return this.nama;
     }
     public String getwarna(){ //method getter
         return this.warna;
     }
-    
-    public void setjenis(String jenis){ //method setter
-        this.jenis = jenis;
-    }
     public String getjenis(){ //method getter
         return this.jenis;
-    }
-    
-    public void setharga(String harga){ //method setter
-        this.harga = harga;
     }
     public String getharga(){ //method getter
         return this.harga;
     }
+     
 }
