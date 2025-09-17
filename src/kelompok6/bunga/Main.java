@@ -15,10 +15,10 @@ public class Main {
        //Bunga Tulip - Alia  
        aliaTulip at = new aliaTulip();
        
-       at.setnama("Tulip");
+       at.setnama("Bunga Tulip");
        at.setwarna("Merah Muda");
        at.setjenis("Single Early Tulip");
-       at.setharga("Rp. 20.000");
+       at.setharga("Rp.20000");
                
        System.out.println("\n\t\t\tTulip");
        System.out.println("Nama   : "+at.getnama());
@@ -30,10 +30,10 @@ public class Main {
        //Bunga Anggrek - Rama
         ramaAnggrek pp = new ramaAnggrek();
         
-        pp.setnama("Anggrek");
+        pp.setnama("Bunga Anggrek");
         pp.setwarna("Putih, Ungu, Pink");
         pp.setjenis("Phalaenopsis");
-        pp.setharga("Rp. 40.000");
+        pp.setharga("Rp.40000");
         
         System.out.println("\n\t\t\tAnggrek");
         System.out.println("Nama    : " + pp.getnama());
@@ -45,10 +45,10 @@ public class Main {
         //Bunga Lily - Burhan
         burhanLily bl = new burhanLily();
         
-        bl.setnama("Lily");
+        bl.setnama("Bunga Lily");
         bl.setwarna("Merah, Putih, Pink, Kuning, Biru");
         bl.setjenis("Rosa luciae");
-        bl.setharga("Rp. 25.000");
+        bl.setharga("Rp.25000");
         
         System.out.println("\n\t\t\tLIly");
         System.out.println("Nama    : " + bl.getnama());
@@ -59,10 +59,10 @@ public class Main {
       //Bunga Mawar - Ainiha 
         ainihaMawar ai = new ainihaMawar();
         
-        ai.setnama("Mawar");
+        ai.setnama("Bunga Mawar");
         ai.setwarna("Merah, Putih, Pink, Kuning, Biru");
         ai.setjenis("Rosa luciae");
-        ai.setharga("Rp. 25.000");
+        ai.setharga("Rp.25000");
         
         System.out.println("\n\t\t\tMawar");
         System.out.println("Nama    : " + ai.getnama());
@@ -70,7 +70,19 @@ public class Main {
         System.out.println("Jenis   : " + ai.getjenis());
         System.out.println("Harga   : " + ai.getharga());
         
+        //Bunga Turi - Zakky
+        zakkyTuri zt = new zakkyTuri();
         
+        zt.setNama("Kembang Turi");
+        zt.setWarna("Putih, Pink, Merah");
+        zt.setJenis("Sesbania grandiflora");
+        zt.setHarga("Rp.8000 per kg");
+        
+        System.out.println("\n\t\t\tTuri");
+        System.out.println("Nama    : "+zt.getNama());
+        System.out.println("Jenis   : "+zt.getJenis());
+        System.out.println("Warna   : "+zt.getWarna());
+        System.out.println("Harga   : "+zt.getHarga());
  
         
        
