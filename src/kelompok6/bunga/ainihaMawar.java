@@ -9,11 +9,11 @@ package kelompok6.bunga;
  * @author user
  */
 public class ainihaMawar {
-    String nama_bunga, jenis, warna, harga;
+    String nama, jenis, warna, harga;
     
     //setter
     public void setnama_bunga(String nama_bunga) {
-        this.nama_bunga = nama_bunga;
+        this.nama = nama_bunga;
     }
     public void setjenis(String jenis) {
         this.jenis = jenis;
@@ -27,7 +27,7 @@ public class ainihaMawar {
     
     //getter
     public String getnama_bunga(){
-        return this.nama_bunga;
+        return this.nama;
     }
     public String getjenis(){
         return this.jenis;
