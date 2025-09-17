@@ -57,18 +57,20 @@ public class Main {
         System.out.println("Harga   : " + bl.getharga());
     
       //Bunga Mawar - Ainiha 
-         ainihaMawar ai = new ainihaMawar();
+        ainihaMawar ai = new ainihaMawar();
         
-        ai.setnama_bunga("Mawar");
-        pp.setwarna("Merah, Putih, Pink, Kuning, Biru");
-        pp.setjenis("Rosa luciae");
-        pp.setharga("Rp. 25.000");
+        ai.setnama("Mawar");
+        ai.setwarna("Merah, Putih, Pink, Kuning, Biru");
+        ai.setjenis("Rosa luciae");
+        ai.setharga("Rp. 25.000");
         
         System.out.println("\n\t\t\tMawar");
-        System.out.println("Nama    : " + pp.getnama());
-        System.out.println("Warna   : " + pp.getwarna());
-        System.out.println("Jenis   : " + pp.getjenis());
-        System.out.println("Harga   : " + pp.getharga());
+        System.out.println("Nama    : " + ai.getnama());
+        System.out.println("Warna   : " + ai.getwarna());
+        System.out.println("Jenis   : " + ai.getjenis());
+        System.out.println("Harga   : " + ai.getharga());
+        
+        
  
         
        

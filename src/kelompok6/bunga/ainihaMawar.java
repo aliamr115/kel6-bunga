@@ -12,7 +12,7 @@ public class ainihaMawar {
     String nama, jenis, warna, harga;
     
     //setter
-    public void setnama_bunga(String nama_bunga) {
+    public void setnama(String nama_bunga) {
         this.nama = nama_bunga;
     }
     public void setjenis(String jenis) {
@@ -26,7 +26,7 @@ public class ainihaMawar {
     }
     
     //getter
-    public String getnama_bunga(){
+    public String getnama(){
         return this.nama;
     }
     public String getjenis(){
