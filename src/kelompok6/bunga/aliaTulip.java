@@ -10,4 +10,33 @@ package kelompok6.bunga;
  */
 public class aliaTulip {
     
+    String nama, warna, jenis, harga;
+    
+    public void setnama(String nama){ //method setter
+        this.nama = nama;
+    }
+    public String getnama(){ //method getter
+        return this.getnama();
+    }
+    
+    public void setwarna(String warna){ //method setter
+        this.warna = warna;
+    }
+    public String getwarna(){ //method getter
+        return this.getwarna();
+    }
+    
+    public void setjenis(String jenis){ //method setter
+        this.jenis = jenis;
+    }
+    public String getjenis(){ //method getter
+        return this.getjenis();
+    }
+    
+    public void setharga(String harga){ //method setter
+        this.nama = nama;
+    }
+    public String getharga(){ //method getter
+        return this.getharga();
+    }
 }
