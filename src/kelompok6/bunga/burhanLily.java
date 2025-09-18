@@ -9,12 +9,13 @@ package kelompok6.bunga;
  * @author user
  */
 public class burhanLily {
+    
     String nama, warna, jenis, harga;
     
-    public void setnama(String nama){
+    public void setnama(String nama){ //setter
         this.nama = nama;
     }
-    public String getnama(){
+    public String getnama(){ //getter
         return this.nama;
     }
     
