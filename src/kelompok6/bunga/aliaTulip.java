@@ -8,7 +8,7 @@ package kelompok6.bunga;
  *
  * @author user
  */
-public class aliaTulip {
+public class aliaTulip { //alia
     
     String nama, warna, jenis, harga;
     
