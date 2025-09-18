@@ -9,31 +9,31 @@ public class Kelompok6Bunga {
         aliaTulip at = new aliaTulip();
        
         at.setnama("Bunga Tulip");
-        at.setwarna("Merah Muda");
-        at.setjenis("Bunga Tulip");
-        at.setharga("Rp. 20000");
+        at.setwarna("Merah Muda, Putih, Ungu");
+        at.setjenis("Tulip Single Early");
+        at.setharga("Rp.45000");
         
 
-        System.out.println("\t\tKELOMPOK 6 BUNGA");
-        System.out.println("\t\tBunga Tulip");
-        System.out.println("Nama    : "+at.getnama());
-        System.out.println("Warna   : "+at.getwarna());
-        System.out.println("Jenis   : "+at.getjenis());
-        System.out.println("Harga   : "+at.getharga());
+        System.out.println("==========KELOMPOK 6 BUNGA==========");
+        System.out.println("\t---Bunga Tulip---");
+        System.out.println("Nama         : "+at.getnama());
+        System.out.println("Warna        : "+at.getwarna());
+        System.out.println("Jenis        : "+at.getjenis());
+        System.out.println("Harga        : "+at.getharga());
         
         //Bunga Mawar - Ainiha
         ainihaMawar am = new ainihaMawar();
 
         am.setnama_bunga("Bunga Mawar");
-        am.setwarna("Merah Muda");
-        am.setjenis("Bunga Mawar");
-        am.setharga("Rp. 20000");
+        am.setwarna("Merah, Putih, Pink, Kuning, Biru");
+        am.setjenis("Rosa luciae");
+        am.setharga("Rp.25000");
         
-        System.out.println("\t\tBunga Mawar");
-        System.out.println("Nama    : "+am.getnama_bunga());
-        System.out.println("Warna   : "+am.getwarna());
-        System.out.println("Jenis   : "+am.getjenis());
-        System.out.println("Harga   : "+am.getharga());
+        System.out.println("\t---Bunga Mawar---");
+        System.out.println("Nama         : "+am.getnama_bunga());
+        System.out.println("Warna        : "+am.getwarna());
+        System.out.println("Jenis        : "+am.getjenis());
+        System.out.println("Harga        : "+am.getharga());
         
         //Bunga Teratai - Talitha
         talithaTeratai2 tr = new talithaTeratai2();
@@ -41,13 +41,13 @@ public class Kelompok6Bunga {
         tr.setnama("Bunga Teratai");
         tr.setwarna("Merah Muda");
         tr.setjenis("Bunga Tulip");
-        tr.setharga("Rp. 20000");
+        tr.setharga("Rp.20000");
         
-        System.out.println("\t\tBunga Teratai");
-        System.out.println("Nama    : "+tr.getnama());
-        System.out.println("Warna   : "+tr.getwarna());
-        System.out.println("Jenis   : "+tr.getjenis());
-        System.out.println("Harga   : "+tr.getharga());
+        System.out.println("\t---Bunga Teratai---");
+        System.out.println("Nama         : "+tr.getnama());
+        System.out.println("Warna        : "+tr.getwarna());
+        System.out.println("Jenis        : "+tr.getjenis());
+        System.out.println("Harga        : "+tr.getharga());
         
         //Bunga Anggrek - Rama
         ramaAnggrek pp = new ramaAnggrek();
@@ -55,45 +55,44 @@ public class Kelompok6Bunga {
         pp.setnama("Bunga Anggrek");
         pp.setwarna("Putih, Ungu, Pink");
         pp.setjenis("Phalaenopsis");
-        pp.setharga("Rp. 40.000");
+        pp.setharga("Rp.40000");
         
-        System.out.println("\t\tBunga Anggrek");
-        System.out.println("Nama    : " + pp.getnama());
-        System.out.println("Warna   : " + pp.getwarna());
-        System.out.println("Jenis   : " + pp.getjenis());
-        System.out.println("Harga   : " + pp.getharga());
+        System.out.println("\t---Bunga Anggrek---");
+        System.out.println("Nama         : " + pp.getnama());
+        System.out.println("Warna        : " + pp.getwarna());
+        System.out.println("Jenis        : " + pp.getjenis());
+        System.out.println("Harga        : " + pp.getharga());
         
         //Bunga Turi - Muzakky
         zakkyTuri zt = new zakkyTuri();
         
         zt.setNama("Bunga Turi");
-        zt.setWarna("Putih, Ungu, Pink");
-        zt.setJenis("Phalaenopsis");
-        zt.setHarga("Rp. 8000");
+        zt.setWarna("Putih, Merah Muda, Merah");
+        zt.setJenis("Sesbania grandiflora");
+        zt.setHarga("Rp.8000");
         
-        System.out.println("\t\tBunga Turi");
-        System.out.println("Nama    : " + zt.getNama());
-        System.out.println("Warna   : " + zt.getWarna());
-        System.out.println("Jenis   : " + zt.getJenis());
-        System.out.println("Harga   : " + zt.getHarga());
+        System.out.println("\t---Bunga Turi---");
+        System.out.println("Nama         : " + zt.getNama());
+        System.out.println("Warna        : " + zt.getWarna());
+        System.out.println("Jenis        : " + zt.getJenis());
+        System.out.println("Harga        : " + zt.getHarga());
         
         
         //Bunga Lily - Burhan
         burhanLily bl = new burhanLily();
         
         bl.setnama("Bunga Lily");
-        bl.setwarna("Putih, Ungu, Pink");
-        bl.setjenis("Phalaenopsis");
-        bl.setharga("Rp. 8000");
+        bl.setwarna("Jingga");
+        bl.setjenis("Bulbiferum");
+        bl.setharga("Rp.30000");
         
-        System.out.println("\t\tBunga Lily");
-        System.out.println("Nama    : " + bl.getnama());
-        System.out.println("Warna   : " + bl.getwarna());
-        System.out.println("Jenis   : " + bl.getjenis());
-        System.out.println("Harga   : " + bl.getharga());
+        System.out.println("\t---Bunga Lily---");
+        System.out.println("Nama         : " + bl.getnama());
+        System.out.println("Warna        : " + bl.getwarna());
+        System.out.println("Jenis        : " + bl.getjenis());
+        System.out.println("Harga        : " + bl.getharga());
         
     }
-
     }
     
 
