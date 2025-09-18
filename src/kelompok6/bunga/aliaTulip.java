@@ -1,6 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Cla sses/Class.java to edit this template
  */
 package kelompok6.bunga;
 
@@ -8,7 +8,7 @@ package kelompok6.bunga;
  *
  * @author user
  */
-public class aliaTulip { //alia
+public class aliaTulip { 
     
     String nama, warna, jenis, harga;
     
