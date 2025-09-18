@@ -11,10 +11,10 @@ package kelompok6.bunga;
 public class zakkyTuri {
     String nama, warna, jenis, harga;
     
-    public void setNama(String namax) {
+    public void setNama(String namax) { //setter
         this.nama = namax;
     }
-    public String getNama() {
+    public String getNama() { ///getter
         return this.nama;
     }
     public void setWarna (String warnax) {
