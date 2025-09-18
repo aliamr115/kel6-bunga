@@ -1,6 +1,7 @@
  package kelompok6.bunga;
 
 public class ramaAnggrek {
+    
     // Deklarasi variabel
     String nama, warna, jenis, harga;
     
