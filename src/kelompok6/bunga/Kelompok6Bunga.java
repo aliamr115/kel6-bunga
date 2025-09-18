@@ -13,6 +13,7 @@ public class Kelompok6Bunga {
         at.setjenis("Bunga Tulip");
         at.setharga("Rp. 20000");
         
+
         System.out.println("\t\tKELOMPOK 6 BUNGA");
         System.out.println("\t\tBunga Tulip");
         System.out.println("Nama  : "+at.getnama());
@@ -64,6 +65,7 @@ public class Kelompok6Bunga {
         //Bunga Turi - Muzakky
         
     }
+
     }
     
 
