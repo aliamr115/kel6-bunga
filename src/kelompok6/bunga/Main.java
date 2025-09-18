@@ -80,8 +80,8 @@ public class Main {
         
         System.out.println("\n\t\t\tTuri");
         System.out.println("Nama    : "+zt.getNama());
-        System.out.println("Jenis   : "+zt.getJenis());
         System.out.println("Warna   : "+zt.getWarna());
+        System.out.println("Jenis   : "+zt.getJenis());
         System.out.println("Harga   : "+zt.getHarga());
  
         
