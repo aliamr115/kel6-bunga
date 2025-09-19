@@ -39,9 +39,9 @@ public class Kelompok6Bunga {
         talithaTeratai2 tr = new talithaTeratai2();
        
         tr.setnama("Bunga Teratai");
-        tr.setwarna("Merah Muda");
-        tr.setjenis("Bunga Tulip");
-        tr.setharga("Rp.20000");
+        tr.setwarna("Putih, Pink, Ungu, Biru");
+        tr.setjenis("Victoria amazonica");
+        tr.setharga("Rp.75000");
         
         System.out.println("\t---Bunga Teratai---");
         System.out.println("Nama         : "+tr.getnama());
