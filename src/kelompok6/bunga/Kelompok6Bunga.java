@@ -92,6 +92,8 @@ public class Kelompok6Bunga {
         System.out.println("Jenis        : " + bl.getjenis());
         System.out.println("Harga        : " + bl.getharga());
         
+
+       
     }
     }
     
