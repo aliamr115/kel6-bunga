@@ -300,9 +300,9 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
 
     private void bTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTambahActionPerformed
         // TODO add your handling code here:
-        
         talithaTeratai2 tr = new talithaTeratai2();
-        tr.setnama(tNama.getText());
+        
+        tr.setnama(tNama.getText()); 
         tr.setwarna(tWarna.getText());
         tr.setjenis(tJenis.getText());
         tr.setharga(tHarga.getText());
