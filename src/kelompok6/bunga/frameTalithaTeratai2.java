@@ -78,7 +78,6 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
         bTambah.setBackground(new java.awt.Color(51, 153, 0));
         bTambah.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         bTambah.setForeground(new java.awt.Color(255, 255, 255));
-        bTambah.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/bunga/icons8-plus-20.png"))); // NOI18N
         bTambah.setText("Tambah");
         bTambah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,7 +120,6 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
         bClose.setBackground(new java.awt.Color(255, 0, 0));
         bClose.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         bClose.setForeground(new java.awt.Color(255, 255, 255));
-        bClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/bunga/icons8-close-20.png"))); // NOI18N
         bClose.setText("Close");
         bClose.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,7 +174,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
                     .addComponent(jLabel8)
                     .addComponent(vHarga)
                     .addComponent(bClose))
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         tJenis.addActionListener(new java.awt.event.ActionListener() {
@@ -204,7 +202,6 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
         bReset.setBackground(new java.awt.Color(0, 102, 255));
         bReset.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         bReset.setForeground(new java.awt.Color(255, 255, 255));
-        bReset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/bunga/icons8-reset-20.png"))); // NOI18N
         bReset.setText("Reset");
         bReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -352,7 +349,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
 
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
