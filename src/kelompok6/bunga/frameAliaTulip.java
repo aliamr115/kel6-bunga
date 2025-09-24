@@ -19,7 +19,15 @@ public class frameAliaTulip extends javax.swing.JFrame {
     }
     
     void reset(){
-        reset();
+        tNama.setText(null);
+        tWarna.setText(null);
+        tJenis.setText(null);
+        tHarga.setText(null);
+        
+        vNama.setText(null);
+        vWarna.setText(null);
+        vJenis.setText(null);
+        vHarga.setText(null);                                 
     }
    
 
@@ -293,10 +301,7 @@ public class frameAliaTulip extends javax.swing.JFrame {
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
-        tNama.setText(null);
-        tWarna.setText(null);
-        tJenis.setText(null);
-        tHarga.setText(null);
+        reset();
     }//GEN-LAST:event_bResetActionPerformed
 
     private void bCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCloseActionPerformed
