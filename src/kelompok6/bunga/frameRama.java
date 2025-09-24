@@ -42,7 +42,7 @@ public class frameRama extends javax.swing.JFrame {
         vWarna = new javax.swing.JLabel();
         vJenis = new javax.swing.JLabel();
         vHarga = new javax.swing.JLabel();
-        btnClose = new javax.swing.JButton();
+        btnKembali = new javax.swing.JButton();
         btnTambah = new javax.swing.JButton();
         tWarna = new javax.swing.JTextField();
         tJenis = new javax.swing.JTextField();
@@ -77,10 +77,10 @@ public class frameRama extends javax.swing.JFrame {
 
         vHarga.setText(".....");
 
-        btnClose.setText("Close");
-        btnClose.addActionListener(new java.awt.event.ActionListener() {
+        btnKembali.setText("Kembali");
+        btnKembali.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCloseActionPerformed(evt);
+                btnKembaliActionPerformed(evt);
             }
         });
 
@@ -106,7 +106,7 @@ public class frameRama extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(vHarga)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnClose)
+                        .addComponent(btnKembali)
                         .addGap(15, 15, 15))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -133,7 +133,7 @@ public class frameRama extends javax.swing.JFrame {
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
-                        .addComponent(btnClose)
+                        .addComponent(btnKembali)
                         .addGap(16, 16, 16))))
         );
 
@@ -250,6 +250,7 @@ public class frameRama extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahActionPerformed
@@ -267,10 +268,11 @@ public class frameRama extends javax.swing.JFrame {
         vHarga.setText(pp.getharga());
     }//GEN-LAST:event_btnTambahActionPerformed
 
-    private void btnCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCloseActionPerformed
+    private void btnKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKembaliActionPerformed
         // TODO add your handling code here:
+        new mainFrame().setVisible(true);
         dispose();
-    }//GEN-LAST:event_btnCloseActionPerformed
+    }//GEN-LAST:event_btnKembaliActionPerformed
 
     private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
         // TODO add your handling code here:
@@ -313,7 +315,7 @@ public class frameRama extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnClose;
+    private javax.swing.JButton btnKembali;
     private javax.swing.JButton btnReset;
     private javax.swing.JButton btnTambah;
     private javax.swing.JLabel jLabel1;
