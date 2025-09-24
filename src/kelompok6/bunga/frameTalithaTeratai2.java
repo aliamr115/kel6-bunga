@@ -120,7 +120,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
         bClose.setBackground(new java.awt.Color(255, 0, 0));
         bClose.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         bClose.setForeground(new java.awt.Color(255, 255, 255));
-        bClose.setText("Close");
+        bClose.setText("Kembali");
         bClose.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bCloseActionPerformed(evt);
@@ -150,7 +150,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
                         .addComponent(jLabel5)
                         .addGap(36, 36, 36)
                         .addComponent(vNama, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 156, Short.MAX_VALUE)
                 .addComponent(bClose)
                 .addGap(17, 17, 17))
         );
@@ -237,12 +237,11 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
                                     .addGap(31, 31, 31)))
                             .addComponent(jLabel13))
                         .addGap(49, 49, 49)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(tHarga)
-                                .addComponent(tJenis)
-                                .addComponent(tWarna))
-                            .addComponent(tNama, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tHarga)
+                            .addComponent(tJenis)
+                            .addComponent(tWarna)
+                            .addComponent(tNama)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(bReset)))
@@ -293,6 +292,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void bTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTambahActionPerformed
@@ -338,7 +338,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
 
     private void bCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCloseActionPerformed
         // TODO add your handling code here:
-        
+        new mainFrame().setVisible(true);
         dispose();
     }//GEN-LAST:event_bCloseActionPerformed
 
