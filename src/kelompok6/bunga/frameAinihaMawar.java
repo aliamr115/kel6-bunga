@@ -162,7 +162,7 @@ public class frameAinihaMawar extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(vHarga)
                     .addComponent(jLabel9))
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         btnReset.setBackground(new java.awt.Color(102, 102, 255));
@@ -253,9 +253,9 @@ public class frameAinihaMawar extends javax.swing.JFrame {
                     .addComponent(btnReset))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(btnClose)
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
