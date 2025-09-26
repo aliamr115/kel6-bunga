@@ -16,6 +16,18 @@ public class frameAinihaMawar extends javax.swing.JFrame {
     public frameAinihaMawar() {
         initComponents();
     }
+    
+    void reset(){
+        tNama.setText(null);
+        tWarna.setText(null);
+        tJenis.setText(null);
+        tHarga.setText(null);
+        
+        vNama.setText(null);
+        vWarna.setText(null);
+        vJenis.setText(null);
+        vHarga.setText(null);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -281,10 +293,7 @@ public class frameAinihaMawar extends javax.swing.JFrame {
 
     private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
         // TODO add your handling code here:
-        tNama.setText(null);
-        tWarna.setText(null);
-        tJenis.setText(null);
-        tHarga.setText(null);
+        reset();
     }//GEN-LAST:event_btnResetActionPerformed
 
     private void btnKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKembaliActionPerformed
