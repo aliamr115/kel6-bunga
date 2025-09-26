@@ -16,6 +16,18 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
     public frameTalithaTeratai2() {
         initComponents();
     }
+    
+    void reset(){
+        tNama.setText(null);
+        tWarna.setText(null);
+        tJenis.setText(null);
+        tHarga.setText(null);
+        
+        vNama.setText(null);
+        vWarna.setText(null);
+       vJenis.setText(null);
+        vHarga.setText(null);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -329,11 +341,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
-        
-        tNama.setText(null);
-        tWarna.setText(null);
-        tJenis.setText(null);
-        tHarga.setText(null);
+        reset();
     }//GEN-LAST:event_bResetActionPerformed
 
     private void bCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCloseActionPerformed
