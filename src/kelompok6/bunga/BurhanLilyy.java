@@ -16,6 +16,18 @@ public class BurhanLilyy extends javax.swing.JFrame {
     public BurhanLilyy() {
         initComponents();
     }
+    
+    void reset(){
+        tnama.setText(null);
+        twarna.setText(null);
+        tharga.setText(null);
+        tjenis.setText(null);
+        
+        vnama.setText(null);
+        vwarna.setText(null);
+        vharga.setText(null);
+        vjenis.setText(null);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -253,10 +265,7 @@ public class BurhanLilyy extends javax.swing.JFrame {
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
         // TODO add your handling code here:
-        tnama.setText(null);
-        twarna.setText(null);
-        tharga.setText(null);
-        tjenis.setText(null);
+      reset();
     }//GEN-LAST:event_bResetActionPerformed
 
     private void bKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKembaliActionPerformed

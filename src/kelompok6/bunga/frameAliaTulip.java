@@ -49,7 +49,7 @@ public class frameAliaTulip extends javax.swing.JFrame {
         vWarna = new javax.swing.JLabel();
         vJenis = new javax.swing.JLabel();
         vHarga = new javax.swing.JLabel();
-        bClose = new javax.swing.JButton();
+        bKembali = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         bTambah = new javax.swing.JButton();
         tNama = new javax.swing.JTextField();
@@ -97,11 +97,11 @@ public class frameAliaTulip extends javax.swing.JFrame {
         vHarga.setForeground(new java.awt.Color(255, 255, 255));
         vHarga.setText("jLabel12");
 
-        bClose.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
-        bClose.setText("Kembali");
-        bClose.addActionListener(new java.awt.event.ActionListener() {
+        bKembali.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
+        bKembali.setText("Kembali");
+        bKembali.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bCloseActionPerformed(evt);
+                bKembaliActionPerformed(evt);
             }
         });
 
@@ -130,7 +130,7 @@ public class frameAliaTulip extends javax.swing.JFrame {
                 .addContainerGap(76, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(bClose, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(bKembali, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(15, 15, 15))
         );
         jPanel1Layout.setVerticalGroup(
@@ -153,7 +153,7 @@ public class frameAliaTulip extends javax.swing.JFrame {
                     .addComponent(jLabel8)
                     .addComponent(vHarga))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(bClose)
+                .addComponent(bKembali)
                 .addContainerGap())
         );
 
@@ -304,11 +304,11 @@ public class frameAliaTulip extends javax.swing.JFrame {
         reset();
     }//GEN-LAST:event_bResetActionPerformed
 
-    private void bCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCloseActionPerformed
+    private void bKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKembaliActionPerformed
         // TODO add your handling code here:
         new mainFrame().setVisible(true);
         dispose();
-    }//GEN-LAST:event_bCloseActionPerformed
+    }//GEN-LAST:event_bKembaliActionPerformed
 
     /**
      * @param args the command line arguments
@@ -346,7 +346,7 @@ public class frameAliaTulip extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton bClose;
+    private javax.swing.JButton bKembali;
     private javax.swing.JButton bReset;
     private javax.swing.JButton bTambah;
     private javax.swing.JLabel jLabel1;
