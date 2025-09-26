@@ -221,7 +221,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void bTuriActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTuriActionPerformed
         // TODO add your handling code here:
-
+        new JFrameZakkyTuri().setVisible(true);
     }//GEN-LAST:event_bTuriActionPerformed
 
     private void bLilyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bLilyActionPerformed
