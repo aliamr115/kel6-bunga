@@ -25,7 +25,7 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
         
         vNama.setText(null);
         vWarna.setText(null);
-       vJenis.setText(null);
+        vJenis.setText(null);
         vHarga.setText(null);
     }
 
