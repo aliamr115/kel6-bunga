@@ -73,8 +73,8 @@ public class Teratai extends BungaBunga{
     public void TampilData(){
         super.TampilData();
         System.out.println("Negara Asal : " +this.NegaraAsal);
-        System.out.println("Jenis : " +this.Jenis);
-        System.out.println("Pajak : " +this.Pajak);
-        System.out.println("Beracun : " + this.Beracun);
+        System.out.println("Jenis       : " +this.Jenis);
+        System.out.println("Pajak       : " +this.Pajak);
+        System.out.println("Beracun     : " + this.Beracun);
     }
 }
