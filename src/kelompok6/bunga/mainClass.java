@@ -12,8 +12,8 @@ public class mainClass {
     public static void main(String[] args) {
         
         tulip bt = new tulip();
-        bt.setCiri_ciri("343434");
-        bt.TampilData();
+        
+        
         
                 
     }
