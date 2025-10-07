@@ -81,16 +81,16 @@ public class Kelompok6Bunga {
         //Bunga Lily - Burhan
         burhanLily bl = new burhanLily();
         
-        bl.setnama("Bunga Lily");
-        bl.setwarna("Jingga");
-        bl.setjenis("Bulbiferum");
-        bl.setharga("Rp.30000");
+        //bl.setnama("Bunga Lily");
+        //bl.setwarna("Jingga");
+        //bl.setjenis("Bulbiferum");
+        //bl.setharga("Rp.30000");
         
-        System.out.println("\t---Bunga Lily---");
-        System.out.println("Nama         : " + bl.getnama());
-        System.out.println("Warna        : " + bl.getwarna());
-        System.out.println("Jenis        : " + bl.getjenis());
-        System.out.println("Harga        : " + bl.getharga());
+        //System.out.println("\t---Bunga Lily---");
+        //System.out.println("Nama         : " + bl.getnama());
+        //System.out.println("Warna        : " + bl.getwarna());
+        //System.out.println("Jenis        : " + bl.getjenis());
+        //System.out.println("Harga        : " + bl.getharga());
         
 
        
