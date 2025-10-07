@@ -40,9 +40,10 @@ public class BungaBunga {
    
         public void TampilData(){
               
-              System.out.println("Warna Bunga :" +warna);
-              System.out.println("Ciri Bunga :" +ciri_ciri);
-              System.out.println("Kelopak Bunga :" +kelopak);
+              System.out.println("Warna Bunga    :" +warna);
+              System.out.println("Ciri Bunga     :" +ciri_ciri);
+              System.out.println("Kelopak Bunga  :" +kelopak);
+              
 
             
     }

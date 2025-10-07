@@ -12,7 +12,14 @@ public class mainClass {
     public static void main(String[] args) {
         
         tulip bt = new tulip();
-        bt.setCiri_ciri("343434");
+        System.out.println("---Bunga Tulip---");
+        bt.setWarna("Merah Muda");
+        bt.setCiri_ciri("Berbatang");
+        bt.setKelopak("Mekar");
+        bt.setNegaraAsal("Rusia");
+        bt.setJenis("Tulip Single Early");
+        bt.setPajak(2000);
+        bt.setBeracun(false);
         bt.TampilData();
         
                 
