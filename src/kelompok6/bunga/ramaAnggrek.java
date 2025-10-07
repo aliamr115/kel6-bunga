@@ -1,41 +1,42 @@
  package kelompok6.bunga;
 
-public class ramaAnggrek {
+public class ramaAnggrek extends BungaBunga {
     
     // Deklarasi variabel
-    String nama, warna, jenis, harga;
-    
-    // Method Setter
-    public void setnama(String namax){
-        this.nama = namax;
+    String NegaraAsal, Jenis;
+    int Pajak;
+
+    public String getNegaraAsal() {
+        return NegaraAsal;
+    }
+
+    public void setNegaraAsal(String NegaraAsal) {
+        this.NegaraAsal = NegaraAsal;
+    }
+
+    public String getJenis() {
+        return Jenis;
+    }
+
+    public void setJenis(String Jenis) {
+        this.Jenis = Jenis;
+    }
+
+    public int getPajak() {
+        return Pajak;
+    }
+
+    public void setPajak(int Pajak) {
+        this.Pajak = Pajak;
     }
     
-    public void setwarna(String warnax){
-        this.warna = warnax;
-    }
-    
-    public void setjenis(String jenisx){
-        this.jenis = jenisx;
-    }
-    
-    public void setharga(String hargax){
-        this.harga = hargax;
-    }   
-    
-    // Method Getter
-    public String getnama(){
-        return this.nama;
-    }
-    
-    public String getwarna(){
-        return this.warna;
-    }
-    
-    public String getjenis(){
-        return this.jenis;
-    }
-    
-    public String getharga(){
-        return this.harga;
-    }
+    public void TampilData() {
+        System.out.println("======================================");
+        System.out.println("\t\tBunga Anggrek\t\t");
+        System.out.println("======================================");
+        super.TampilData();
+        System.out.println("Negara Asal       : " + this.NegaraAsal);
+        System.out.println("Jenis             : " + this.NegaraAsal);
+        System.out.println("Pajak             : " + this.NegaraAsal);
+    } 
 }

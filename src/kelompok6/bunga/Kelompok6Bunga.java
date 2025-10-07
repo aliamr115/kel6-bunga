@@ -52,16 +52,16 @@ public class Kelompok6Bunga {
         //Bunga Anggrek - Rama
         ramaAnggrek pp = new ramaAnggrek();
         
-        pp.setnama("Bunga Anggrek");
-        pp.setwarna("Putih, Ungu, Pink");
-        pp.setjenis("Phalaenopsis");
-        pp.setharga("Rp.40000");
+        //pp.setnama("Bunga Anggrek");
+        //pp.setwarna("Putih, Ungu, Pink");
+        //pp.setjenis("Phalaenopsis");
+        //pp.setharga("Rp.40000");
         
         System.out.println("\t---Bunga Anggrek---");
-        System.out.println("Nama         : " + pp.getnama());
-        System.out.println("Warna        : " + pp.getwarna());
-        System.out.println("Jenis        : " + pp.getjenis());
-        System.out.println("Harga        : " + pp.getharga());
+        //System.out.println("Nama         : " + pp.getnama());
+        //System.out.println("Warna        : " + pp.getwarna());
+        //System.out.println("Jenis        : " + pp.getjenis());
+        //System.out.println("Harga        : " + pp.getharga());
         
         //Bunga Turi - Muzakky
         zakkyTuri zt = new zakkyTuri();
@@ -95,6 +95,4 @@ public class Kelompok6Bunga {
 
        
     }
-    }
-    
-
+}
