@@ -6,7 +6,7 @@ package kelompok6.bunga;
 
 /**
  *
- * @author USER
+ * MUHAMMAD MUZAKKY
  */
 public class Turi extends BungaBunga{
     String NegaraAsal, Jenis;
