@@ -20,7 +20,14 @@ public class mainClass {
         at.setPajak(2000);
         at.TampilData();
         
-        
+        ramaAnggrek ra = new ramaAnggrek();
+        ra.setWarna("Ungu");
+        ra.setCiri_ciri("Berbatang ramping dan berakar lekat");
+        ra.setKelopak("memanjang dan indah");
+        ra.setNegaraAsal("Indonesia");
+        ra.setJenis("Anggrek Bulan");
+        ra.setPajak(3000);
+        ra.TampilData();
         
         
         
