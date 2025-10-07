@@ -37,7 +37,7 @@ public class ramaAnggrek extends BungaBunga {
         System.out.println("=====================================");
         super.TampilData();
         System.out.println("Negara Asal       : " + this.NegaraAsal);
-        System.out.println("Jenis             : " + this.NegaraAsal);
-        System.out.println("Pajak             : " + this.NegaraAsal);
+        System.out.println("Jenis             : " + this.Jenis);
+        System.out.println("Pajak             : " + this.Pajak);
     } 
 }
