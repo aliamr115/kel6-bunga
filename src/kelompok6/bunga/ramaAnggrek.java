@@ -30,6 +30,7 @@ public class ramaAnggrek extends BungaBunga {
         this.Pajak = Pajak;
     }
     
+    @Override
     public void TampilData() {
         System.out.println("=====================================");
         System.out.println("\t\tBunga Anggrek\t\t");
