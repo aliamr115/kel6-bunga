@@ -20,6 +20,8 @@ public class mainClass {
         at.setPajak(2000);
         at.TampilData();
         
+        
+        
                 
     }
    

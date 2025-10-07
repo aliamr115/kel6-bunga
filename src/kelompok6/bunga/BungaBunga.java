@@ -10,7 +10,6 @@ package kelompok6.bunga;
  */
 public class BungaBunga {
     
-    
     String warna,ciri_ciri, kelopak;
 
     public String getWarna() {
