@@ -311,15 +311,15 @@ public class frameTalithaTeratai2 extends javax.swing.JFrame {
         // TODO add your handling code here:
         talithaTeratai2 tr = new talithaTeratai2();
         
-        tr.setnama(tNama.getText()); 
-        tr.setwarna(tWarna.getText());
-        tr.setjenis(tJenis.getText());
-        tr.setharga(tHarga.getText());
+        //tr.setnama(tNama.getText()); 
+        //tr.setwarna(tWarna.getText());
+        //tr.setjenis(tJenis.getText());
+        //tr.setharga(tHarga.getText());
         
-        vNama.setText(tr.getnama());
-        vWarna.setText(tr.getwarna());
-        vJenis.setText(tr.getjenis());
-        vHarga.setText(tr.getharga());
+        //vNama.setText(tr.getnama());
+        //vWarna.setText(tr.getwarna());
+        //vJenis.setText(tr.getjenis());
+        //vHarga.setText(tr.getharga());
     }//GEN-LAST:event_bTambahActionPerformed
 
     private void tNamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tNamaActionPerformed
