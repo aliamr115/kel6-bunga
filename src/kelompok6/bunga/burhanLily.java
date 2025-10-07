@@ -8,34 +8,34 @@ package kelompok6.bunga;
  *
  * @author user
  */
-public class burhanLily {
+public class burhanLily extends BungaBunga{
+    String NegaraAsal,Jenis;
+    int Pajak;
     
-    String nama, warna, jenis, harga;
-    
-    public void setnama(String nama){ //setter
-        this.nama = nama;
+    public String getNegaraAsal(){
+        return  NegaraAsal;
     }
-    public String getnama(){ //getter
-        return this.nama;
-    }
-    
-    public void setwarna(String warna){
-        this.warna = warna;
-    }
-    public String getwarna(){
-        return this.warna;
-    }
-    public void setjenis(String jenis){
-        this.jenis = jenis;
-    }
-    public String getjenis(){
-        return this.jenis;
+
+    public void setNegaraAsal(String NegaraAsal){
+        this.NegaraAsal = NegaraAsal;
     }
     
-    public void setharga(String harga){
-        this.harga = harga;
+    public String getJenis(){
+        return Jenis;
     }
-    public String getharga(){
-        return this.harga;
+    
+    public void setJenis(String Jenis){
+        this.Jenis = Jenis;
+    }
+    
+    public int getPajak(){
+        return Pajak;
+    }
+    
+    public void setPajak(int Pajak){
+        this.Pajak = Pajak;
+    
     }
 }
+    
+   

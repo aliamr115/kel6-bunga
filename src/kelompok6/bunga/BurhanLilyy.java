@@ -252,15 +252,15 @@ public class BurhanLilyy extends javax.swing.JFrame {
         // TODO add your handling code here:
         burhanLily bl = new burhanLily();
         
-        bl.setnama(tnama.getText());
-        bl.setwarna(twarna.getText());
-        bl.setharga(tharga.getText());
-        bl.setjenis(tjenis.getText());
+        //bl.setnama(tnama.getText());
+        //bl.setwarna(twarna.getText());
+        //bl.setharga(tharga.getText());
+        //bl.setjenis(tjenis.getText());
         
-      vnama.setText(bl.getnama());
-      vwarna.setText(bl.getwarna());
-      vharga.setText(bl.getharga());
-      vjenis.setText(bl.getjenis());
+      //vnama.setText(bl.getnama());
+      //vwarna.setText(bl.getwarna());
+      //vharga.setText(bl.getharga());
+      //vjenis.setText(bl.getjenis());
     }//GEN-LAST:event_bTambahActionPerformed
 
     private void bResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bResetActionPerformed
