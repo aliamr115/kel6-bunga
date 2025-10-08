@@ -8,18 +8,18 @@ public class Kelompok6Bunga {
         //Bunga Tulip - Alia
         aliaTulip at = new aliaTulip();
        
-        at.setnama("Bunga Tulip");
-        at.setwarna("Merah Muda, Putih, Ungu");
-        at.setjenis("Tulip Single Early");
-        at.setharga("Rp.45000");
+        //at.setnama("Bunga Tulip");
+        //at.setwarna("Merah Muda, Putih, Ungu");
+        //at.setjenis("Tulip Single Early");
+        //at.setharga("Rp.45000");
         
 
-        System.out.println("==========KELOMPOK 6 BUNGA==========");
-        System.out.println("\t---Bunga Tulip---");
-        System.out.println("Nama         : "+at.getnama());
-        System.out.println("Warna        : "+at.getwarna());
-        System.out.println("Jenis        : "+at.getjenis());
-        System.out.println("Harga        : "+at.getharga());
+        //System.out.println("==========KELOMPOK 6 BUNGA==========");
+        //System.out.println("\t---Bunga Tulip---");
+        //System.out.println("Nama         : "+at.getnama());
+        //System.out.println("Warna        : "+at.getwarna());
+        //System.out.println("Jenis        : "+at.getjenis());
+        //System.out.println("Harga        : "+at.getharga());
         
         //Bunga Mawar - Ainiha
         ainihaMawar am = new ainihaMawar();

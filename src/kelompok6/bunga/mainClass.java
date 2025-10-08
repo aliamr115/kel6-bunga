@@ -11,9 +11,14 @@ package kelompok6.bunga;
 public class mainClass {
     public static void main(String[] args) {
         
-        tulip bt = new tulip();
-        bt.setCiri_ciri("343434");
-        bt.TampilData();
+        aliaTulip at = new aliaTulip();
+        at.setWarna("Merah Muda");
+        at.setCiri_ciri("Berbatang");
+        at.setKelopak("menyerupai cangkir");
+        at.setNegaraAsal("Turki");
+        at.setJenis("Tulip Single Early");
+        at.setPajak(2000);
+        at.TampilData();
         
                 
     }

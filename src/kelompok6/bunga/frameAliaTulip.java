@@ -284,15 +284,15 @@ public class frameAliaTulip extends javax.swing.JFrame {
         // TODO add your handling code here:
         aliaTulip at = new aliaTulip();
         
-        at.setnama(tNama.getText());
-        at.setwarna(tWarna.getText());
-        at.setjenis(tJenis.getText());
-        at.setharga(tHarga.getText());
+        //at.setNegaraAsal(tNama.getText());
+        //at.setPajak(tWarna.getText());
+        //at.setjenis(tJenis.getText());
+        //at.setharga(tHarga.getText());
         
-        vNama.setText(at.getnama());
-        vWarna.setText(at.getwarna());
-        vJenis.setText(at.getjenis());
-        vHarga.setText(at.getharga());
+        //vNama.setText(at.getnama());
+        //vWarna.setText(at.getwarna());
+        //vJenis.setText(at.getjenis());
+        //vHarga.setText(at.getharga());
     }//GEN-LAST:event_bTambahActionPerformed
 
     private void tHargaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tHargaActionPerformed
