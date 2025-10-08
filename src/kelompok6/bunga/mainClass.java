@@ -20,6 +20,15 @@ public class mainClass {
         at.setPajak(2000);
         at.TampilData();
         
+        talithaTeratai2 tr = new talithaTeratai2();
+        tr.setWarna("Putih");
+        tr.setCiri_ciri("Hidup diair");
+        tr.setKelopak("Lonjong dan Lebar");
+        tr.setNegaraAsal("Asia");
+        tr.setJenis("Nymphaea Alba");
+        tr.setPajak(20000);
+        tr.TampilData();
+        
                 
     }
    
