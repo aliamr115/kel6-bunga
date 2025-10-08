@@ -10,6 +10,7 @@ package kelompok6.bunga;
  */
 public class talithaTeratai2 extends BungaBunga{
     String NegaraAsal, Jenis;
+    int Pajak;
     boolean Beracun;
 
     public String getNegaraAsal() {
@@ -35,7 +36,6 @@ public class talithaTeratai2 extends BungaBunga{
     public void setPajak(int Pajak) {
         this.Pajak = Pajak;
     }
-    int Pajak;
 
     public String getWarna() {
         return warna;
@@ -71,10 +71,12 @@ public class talithaTeratai2 extends BungaBunga{
     
     @Override
     public void TampilData(){
+        System.out.println("===========================");
+        System.out.println("\t\t Bunga Teratai\t\t");
+        System.out.println("===========================");
         super.TampilData();
         System.out.println("Negara Asal : " +this.NegaraAsal);
         System.out.println("Jenis       : " +this.Jenis);
         System.out.println("Pajak       : " +this.Pajak);
-        System.out.println("Beracun     : " + this.Beracun);
     }
 }

@@ -38,16 +38,16 @@ public class Kelompok6Bunga {
         //Bunga Teratai - Talitha
         talithaTeratai2 tr = new talithaTeratai2();
        
-        tr.setnama("Bunga Teratai");
-        tr.setwarna("Putih, Pink, Ungu, Biru");
-        tr.setjenis("Victoria amazonica");
-        tr.setharga("Rp.75000");
+        tr.setNama("Bunga Teratai");
+        tr.setWarna("Putih, Pink, Ungu, Biru");
+        tr.setJenis("Victoria amazonica");
+        tr.setHarga("Rp.75000");
         
         System.out.println("\t---Bunga Teratai---");
-        System.out.println("Nama         : "+tr.getnama());
-        System.out.println("Warna        : "+tr.getwarna());
-        System.out.println("Jenis        : "+tr.getjenis());
-        System.out.println("Harga        : "+tr.getharga());
+        System.out.println("Nama         : "+tr.getNama());
+        System.out.println("Warna        : "+tr.getWarna());
+        System.out.println("Jenis        : "+tr.getJenis());
+        System.out.println("Harga        : "+tr.getHarga());
         
         //Bunga Anggrek - Rama
         ramaAnggrek pp = new ramaAnggrek();
