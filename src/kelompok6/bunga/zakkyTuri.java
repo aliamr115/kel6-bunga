@@ -11,6 +11,8 @@ package kelompok6.bunga;
 public class zakkyTuri {
     String nama, warna, jenis, harga;
     
+    //WIS BISA GUNG???
+    
     public void setNama(String namax) { //setter
         this.nama = namax;
     }
