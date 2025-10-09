@@ -6,7 +6,7 @@ package kelompok6.bunga;
 
 /**
  *muzakky
- *GIMANA
+ *GIMANAjjjj
  */
 public class zakkyTuri extends BungaBunga{
     String NegaraAsal,Jenis;
