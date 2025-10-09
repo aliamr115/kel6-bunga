@@ -11,6 +11,8 @@ package kelompok6.bunga;
 public class ainihaMawar {
     String nama_bunga, jenis, warna, harga;
     
+    //AINIHAAAA
+    
     //method setter
     public void setnama_bunga(String nama_bunga) {
         this.nama_bunga = nama_bunga;
