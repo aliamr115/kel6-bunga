@@ -5,38 +5,67 @@
 package kelompok6.bunga;
 
 /**
- *
- * @author user
+ *muzakky
+ *GIMANAjjjj
  */
-public class zakkyTuri {
-    String nama, warna, jenis, harga;
-    
-    public void setNama(String namax) { //setter
-        this.nama = namax;
+public class zakkyTuri extends BungaBunga{
+    String NegaraAsal,Jenis;
+    int Pajak;
+
+    public String getNegaraAsal() {
+        return NegaraAsal;
     }
-    public String getNama() { ///getter
-        return this.nama;
+
+    public void setNegaraAsal(String NegaraAsal) {
+        this.NegaraAsal = NegaraAsal;
     }
-    public void setWarna (String warnax) {
-        this.warna = warnax;
-    }
-    public String getWarna() {
-        return this.warna;
-    }
-    public void setJenis (String jenisx) {
-        this.jenis = jenisx;
-    }
+
     public String getJenis() {
-        return this.jenis;
+        return Jenis;
     }
-    public void setHarga (String hargax) {
-        this.harga = hargax;
+
+    public void setJenis(String Jenis) {
+        this.Jenis = Jenis;
+    }
+
+    public int getPajak() {
+        return Pajak;
+    }
+
+    public void setPajak(int Pajak) {
+        this.Pajak = Pajak;
+    }
+    
+    @Override
+     public void TampilData(){
+        System.out.println("========================================");
+        System.out.println("\t\tBUNGA TURI\t\t");
+        System.out.println("========================================");
+        super.TampilData();
+        System.out.println("Negara Asal    :  "+this.NegaraAsal);
+        System.out.println("Jenis          :  "+this.Jenis);
+        System.out.println("Pajak:         :  "+this.Pajak);
         
     }
-    public String getHarga() {
-        return this.harga;
+
+    String getHarga() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
+    String getNama() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    void setHarga(String rp8000) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    void setNama(String bunga_Turi) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+   }
+   
+    
     
 
     
-}
