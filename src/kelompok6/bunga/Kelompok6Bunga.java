@@ -24,16 +24,6 @@ public class Kelompok6Bunga {
         //Bunga Mawar - Ainiha
         ainihaMawar am = new ainihaMawar();
 
-        am.setnama_bunga("Bunga Mawar");
-        am.setwarna("Merah, Putih, Pink, Kuning, Biru");
-        am.setjenis("Rosa luciae");
-        am.setharga("Rp.25000");
-        
-        System.out.println("\t---Bunga Mawar---");
-        System.out.println("Nama         : "+am.getnama_bunga());
-        System.out.println("Warna        : "+am.getwarna());
-        System.out.println("Jenis        : "+am.getjenis());
-        System.out.println("Harga        : "+am.getharga());
         
         //Bunga Teratai - Talitha
         talithaTeratai2 tr = new talithaTeratai2();
