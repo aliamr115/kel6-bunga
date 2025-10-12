@@ -59,7 +59,7 @@ public class FrameAinihaMawar extends javax.swing.JFrame {
         tjenis1 = new javax.swing.JLabel();
         twarna1 = new javax.swing.JLabel();
         tharga1 = new javax.swing.JLabel();
-        btnClose = new javax.swing.JButton();
+        btnKembali = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -201,17 +201,17 @@ public class FrameAinihaMawar extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        btnClose.setBackground(new java.awt.Color(102, 102, 255));
-        btnClose.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnClose.setForeground(new java.awt.Color(255, 255, 255));
-        btnClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/bunga/icon/icons8-close-20 (4).png"))); // NOI18N
-        btnClose.setText("Close");
-        btnClose.setBorderPainted(false);
-        btnClose.setFocusPainted(false);
-        btnClose.setFocusable(false);
-        btnClose.addActionListener(new java.awt.event.ActionListener() {
+        btnKembali.setBackground(new java.awt.Color(102, 102, 255));
+        btnKembali.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnKembali.setForeground(new java.awt.Color(255, 255, 255));
+        btnKembali.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok6/bunga/icon/icons8-close-20 (4).png"))); // NOI18N
+        btnKembali.setText("Kembali");
+        btnKembali.setBorderPainted(false);
+        btnKembali.setFocusPainted(false);
+        btnKembali.setFocusable(false);
+        btnKembali.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCloseActionPerformed(evt);
+                btnKembaliActionPerformed(evt);
             }
         });
 
@@ -247,7 +247,7 @@ public class FrameAinihaMawar extends javax.swing.JFrame {
                                 .addGap(23, 23, 23))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btnClose)
+                            .addComponent(btnKembali)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jLabel3)
                                 .addGroup(jPanel1Layout.createSequentialGroup()
@@ -277,15 +277,16 @@ public class FrameAinihaMawar extends javax.swing.JFrame {
                     .addComponent(tWarna, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(btnTambah)
-                    .addComponent(btnReset)
-                    .addComponent(tHarga))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(tHarga)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel5)
+                        .addComponent(btnTambah)
+                        .addComponent(btnReset)))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
-                .addComponent(btnClose)
+                .addComponent(btnKembali)
                 .addGap(49, 49, 49))
         );
 
@@ -325,11 +326,11 @@ public class FrameAinihaMawar extends javax.swing.JFrame {
         reset();
     }//GEN-LAST:event_btnResetActionPerformed
 
-    private void btnCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCloseActionPerformed
+    private void btnKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKembaliActionPerformed
         // TODO add your handling code here:
         new mainFrame().setVisible(true);
         dispose();
-    }//GEN-LAST:event_btnCloseActionPerformed
+    }//GEN-LAST:event_btnKembaliActionPerformed
 
     private void btnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahActionPerformed
         // TODO add your handling code here:
@@ -387,7 +388,7 @@ public class FrameAinihaMawar extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnClose;
+    private javax.swing.JButton btnKembali;
     private javax.swing.JButton btnReset;
     private javax.swing.JButton btnTambah;
     private javax.swing.JLabel jLabel1;
