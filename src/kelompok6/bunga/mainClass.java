@@ -22,16 +22,16 @@ public class mainClass {
         ba.setHarga("45.000");
         ba.TampilData();
         
-        //ainihaMawar bm = new ainihaMawar();
-        //bm.setNama("Bunga Mawar");
-        //bm.setWarna("Merah");
-        //bm.setCiri_ciri("batang berduri, akarnya bulat memanjang");
-        //bm.setKelopak("bersusun dalam berbagai warna");
-        //bm.setNegaraAsal("China");
-        //bm.setJenis("Rosa Chinensis");
-        //bm.setPajak(2000);
-        //bm.setHarga("47.000");
-        //bm.TampilData();
+        ainihaMawar bm = new ainihaMawar();
+        bm.setNama("Bunga Mawar");
+        bm.setWarna("Merah");
+        bm.setCiri_ciri("batang berduri, akarnya bulat memanjang");
+        bm.setKelopak("bersusun dalam berbagai warna");
+        bm.setNegaraAsal("China");
+        bm.setJenis("Rosa Chinensis");
+        bm.setPajak(2000);
+        bm.setHarga("47.000");
+        bm.TampilData();
         
         ramaAnggrek br = new ramaAnggrek();
         br.setNama("Bunga Anggrek");
