@@ -60,12 +60,12 @@ public class ainihaMawar extends BungaBunga{
         System.out.println("==================================================");
         System.out.println("\t\tBUNGA MAWAR\t\t");
         System.out.println("==================================================");
-        System.out.println("Nama            :  "+this.Nama);
+        System.out.println("Nama Bunga      :  "+this.Nama);
         System.out.println("Negara Asal     :  "+this.NegaraAsal);
         System.out.println("jenis           :  "+this.Jenis);
         System.out.println("Pajak           :  "+this.Pajak);
         System.out.println("Harga           :  "+this.Harga);
-                super.TampilData();
+        super.TampilData();
         System.out.println("==================================================");
     }
     
