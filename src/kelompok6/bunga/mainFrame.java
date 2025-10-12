@@ -245,7 +245,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void bMawarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bMawarActionPerformed
         // TODO add your handling code here:
-        //new frameAinihaMawar().setVisible(true);
+        new FrameAinihaMawar().setVisible(true);
     }//GEN-LAST:event_bMawarActionPerformed
 
     private void bTulipActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTulipActionPerformed
