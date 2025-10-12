@@ -5,11 +5,27 @@
 package kelompok6.bunga;
 
 /**
- *muzakky
- *GIMANAjjjj
+ *
+ *
  */
 public class zakkyTuri extends BungaBunga{
-    String NegaraAsal,Jenis;
+    String Nama, NegaraAsal,Jenis, Harga;
+
+    public String getHarga() {
+        return Harga;
+    }
+
+    public void setHarga(String Harga) {
+        this.Harga = Harga;
+    }
+
+    public String getNama() {
+        return Nama;
+    }
+
+    public void setNama(String Nama) {
+        this.Nama = Nama;
+    }
     int Pajak;
 
     public String getNegaraAsal() {
@@ -38,31 +54,19 @@ public class zakkyTuri extends BungaBunga{
     
     @Override
      public void TampilData(){
-        System.out.println("========================================");
-        System.out.println("\t\tBUNGA TURI\t\t");
-        System.out.println("========================================");
-        super.TampilData();
+        System.out.println("==============================================================");
+        System.out.println("\t\t\t  BUNGA TURI\t\t\t\t");
+        System.out.println("==============================================================");
+        System.out.println("Nama Bunga     :  "+this.Nama);
         System.out.println("Negara Asal    :  "+this.NegaraAsal);
         System.out.println("Jenis          :  "+this.Jenis);
         System.out.println("Pajak:         :  "+this.Pajak);
-        
+        System.out.println("Harga          :  "+this.Harga);
+        super.TampilData();
+        System.out.println("==============================================================");
     }
 
-    String getHarga() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    String getNama() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    void setHarga(String rp8000) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    void setNama(String bunga_Turi) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+  
    }
    
     

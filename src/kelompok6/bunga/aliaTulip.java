@@ -10,9 +10,26 @@ package kelompok6.bunga;
  */
 public class aliaTulip extends BungaBunga{
     
-    String NegaraAsal,Jenis;
+    String Nama,NegaraAsal,Jenis, Harga;
+
+    public String getHarga() {
+        return Harga;
+    }
+
+    public void setHarga(String Harga) {
+        this.Harga = Harga;
+    }
     int Pajak;
 
+    
+     public String getNama() {
+        return Nama;
+    }
+
+    public void setNama(String Nama) {
+        this.Nama = Nama;
+    }
+    
     public String getNegaraAsal() {
         return NegaraAsal;
     }
@@ -20,7 +37,7 @@ public class aliaTulip extends BungaBunga{
     public void setNegaraAsal(String NegaraAsal) {
         this.NegaraAsal = NegaraAsal;
     }
-
+    
     public String getJenis() {
         return Jenis;
     }
@@ -39,13 +56,16 @@ public class aliaTulip extends BungaBunga{
     
     @Override
      public void TampilData(){
-        System.out.println("========================================");
-        System.out.println("\t\tBUNGA TULIP\t\t");
-        System.out.println("========================================");
-        super.TampilData();
+        System.out.println("==============================================================");
+        System.out.println("\t\t\t  BUNGA TULIP\t\t\t\t");
+        System.out.println("==============================================================");
+        System.out.println("Nama Bunga     :  "+this.Nama);
         System.out.println("Negara Asal    :  "+this.NegaraAsal);
         System.out.println("Jenis          :  "+this.Jenis);
-        System.out.println("Pajak:         :  "+this.Pajak);
+        System.out.println("Pajak          :  "+this.Pajak);
+        System.out.println("Harga          :  "+this.Harga);
+        super.TampilData();
+        System.out.println("==============================================================");
         
     }
    }

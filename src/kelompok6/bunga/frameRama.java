@@ -255,17 +255,16 @@ public class frameRama extends javax.swing.JFrame {
 
     private void btnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahActionPerformed
         // TODO add your handling code here:
-        //ramaAnggrek pp = new ramaAnggrek();
-        //pp.setnama(tNama.getText());
-        //pp.setwarna(tWarna.getText());
-        //pp.setjenis(tJenis.getText());
-        //pp.setharga(tHarga.getText());
+        ramaAnggrek pp = new ramaAnggrek();
+        pp.setNama(tNama.getText());
+        pp.setWarna(tWarna.getText());
+        pp.setJenis(tJenis.getText());
+        pp.setHarga(tHarga.getText());
         
-        //vNama.setText(pp.getnama());
-        //vWarna.setText(pp.getwarna());
-        //vWarna.setText(pp.getwarna());
-        //vJenis.setText(pp.getjenis());
-        //vHarga.setText(pp.getharga());
+        vNama.setText(pp.getNama());
+        vWarna.setText(pp.getWarna());
+        vJenis.setText(pp.getJenis());
+        vHarga.setText(pp.getHarga());
     }//GEN-LAST:event_btnTambahActionPerformed
 
     private void btnKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKembaliActionPerformed
